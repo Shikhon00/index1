@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.name{
+    color: orange;
+    font-size:  45px;;
+}
+.web{
+    font-size:  35px;;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 105%;
+}
+.b{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    padding: 10px 25px;
+    border-radius: 17px;
+    font-weight: 700;
+}
+
+.c{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.goal{
+    font-size: 42px;
+    color: orange;
+}
+/* Hoverable Images */
+img {
+    transition: transform 0.3s;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  .shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 3px;
+    height: 350px;
+  }
+  #color1{
+    background-color: white;
+    border-left: 5.5px solid;
+    border-image: linear-gradient(180deg,rgb(252, 175, 144),rgb(233, 75, 47));
+    border-image-slice: 1;
+  }
+  #color2{
+    border-left: 5.5px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+  }
+.shadow h3{
+    color: orange;
+}
+.h1{
+    margin: 5%;
+}
+.sec3{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.sec3 h2{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+}
+  
