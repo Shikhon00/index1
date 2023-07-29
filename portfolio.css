@@ -2,49 +2,77 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    font-size: 62.5%;
+}
 h1{
-    font-size: 50px;
+    font-size: 5rem;
+}
+p{
+    font-size: 1.5rem;
 }
 .name{
     color: orange;
-    font-size:  45px;;
+    font-size:  4.5rem;
 }
 .web{
-    font-size:  35px;;
+    font-size:  3.5rem;
 }
 .half{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    
 }
+.workimg{
+    width: 29%;
+    float: left;
+    margin: 1.1%;
+    padding: 1%;
+  }
+  .workimg img{
+    width: 100%;
+  }
+  .work h1{
+    color: rgba(34, 32, 32, 0.884);
+    text-align: center;
+  }
+  .work{
+    padding-top: 8rem;
+    background-image: url("biography-bg.png");
+  background-size: 50rem;
+  }
+
 .half img{
-    width: 105%;
+    width: 100%;
 }
 .b{
     background-image: url("top-banner.png");
     background-repeat: no-repeat;
+    background-size: 80rem;
 }
 section{
-    height: 500px;
-    padding-bottom: 150px;
+    height: 50.0rem;
+    padding-bottom: 15.0rem;
 }
 .button{
     color: white;
     text-decoration: none;
-    background-image: linear-gradient(45deg,lightSalmon,tomato);
-    padding: 10px 25px;
-    border-radius: 17px;
-    font-weight: 700;
+    background-image: linear-gradient(45deg,#ffa07a,tomato);
+    padding: 1.0rem 2.5rem;
+    border-radius: 1.7rem;
+    font-weight: bold;
 }
 
 .c{
     background-image: url("bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    background-size: 10rem;
 }
 .goal{
-    font-size: 42px;
+    font-size: 4.2rem;
     color: orange;
 }
 /* Hoverable Images */
@@ -56,18 +84,21 @@ img {
     transform: scale(1.1);
   }
   .shadow{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 3px;
-    height: 350px;
+    box-shadow: 1.0rem 1.0rem 4.0rem gray;
+    border-radius: .3rem;
+    height: 35.rem;
+    border: .2rem solid;
   }
   #color1{
     background-color: white;
-    border-left: 5.5px solid;
+    border-left: .61rem solid;
     border-image: linear-gradient(180deg,rgb(252, 175, 144),rgb(233, 75, 47));
     border-image-slice: 1;
+    
   }
   #color2{
-    border-left: 5.5px solid;
+    background-color: white;
+    border-left: .61rem solid;
     border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice: 1;
   }
@@ -81,11 +112,235 @@ img {
     background-image: url("exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    background-size: 10rem;
 }
 .sec3 h2{
-    font-size: 30px;
+    font-size: 3.0rem;
+}
+h3{
+    font-size: 1.7rem;
 }
 footer{
     text-align: center;
 }
   
+
+
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the transparent navigation bar */
+.transparent-navbar {
+    background-color: rgba(250, 243, 243, 0.932);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500; /* Ensures the navigation bar stays on top of other elements */
+    height: 6.9rem;
+}
+
+.container {
+    display: flex;
+  
+    align-items: center;
+    max-width: 127.0rem;
+    margin-top: 0rem;
+    padding: 0rem 5.0rem;
+    padding-top: 0rem;
+    height: 7.0rem;
+
+}
+.container h2{
+   
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: orange;
+}
+.logo{
+   
+    float: left;
+}
+.container img{
+    
+    width: 5rem;
+    
+    
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-left: 70.0rem;
+}
+
+.menu li {
+    margin: 0rem 1.2rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Set the color of the links */
+    font-size: 1.8rem;
+    padding: .8rem 1.2rem;
+    border-radius: .4rem;
+    background-color: rgba(235, 91, 65, 0.664); /* Add a semi-transparent background */
+    transition: background-color 0.3s ease;
+}
+
+/* Add a hover effect for the links */
+.menu a:hover {
+    background-color:tomato; /* Make the background darker on hover */
+}
+
+/* Style the content below the navigation bar */
+.content {
+    padding-top: 70px; /* Adjust this value based on the height of your navigation bar */
+}
+
+/* Add additional styles as needed */
+@media(max-width:1182px){
+    html{
+        font-size: 56.48%;
+    }
+    .menu {
+
+        position: fixed;
+        
+    }
+    
+    }
+
+
+@media(max-width:1050px){
+    html{
+        font-size: 50.48%;
+    }
+    .c{
+        background-size: 10%;
+    }
+
+}
+@media(max-width:950px){
+    html{
+        font-size: 45.68%;
+    }
+    .menu {
+
+        position: fixed;
+        
+    }
+    
+    }
+@media(max-width:870px){
+    html{
+        font-size: 41.8%;
+    }
+    .c{
+        background-size: 8%;
+    }
+    .goal{
+        font-size: 4rem;
+    }
+}
+@media(max-width:820px){
+    html{
+        font-size: 39.42%;
+    }
+    .c{
+        background-size: 7%;
+    }
+    }
+    @media(max-width:665px){
+        html{
+            font-size: 31.97%;
+        }
+        .c{
+            background-size: 6%;
+        }
+        }
+        @media(max-width:600px){
+            html{
+                font-size: 28.48%;
+            }
+            .menu {
+        
+                position: fixed;
+                
+            }
+            
+            }
+        @media(max-width:535px){
+            html{
+                font-size: 25.7%;
+            }
+            .c{
+                background-size: 5%;
+            }
+            .name{
+                font-size:  4rem;
+            }
+            .web{
+                font-size:  3rem;
+            }
+            .wel{
+                font-size:  5rem;
+            }
+            .button{
+                font-size: 2rem;
+            }
+            }
+            @media(max-width:490px){
+                html{
+                    font-size: 23.48%;
+                }
+                .menu {
+            
+                    position: fixed;
+                }
+                
+                }
+
+    @media(max-width:427px){
+        html{
+            font-size: 20.5%;
+        }
+        .c{
+            background-size: 5%;
+        }
+        .button{
+            font-size: 1.7rem;
+        }
+        }
+        @media(max-width:393px){
+            html{
+                font-size: 18.48%;
+            }
+            .menu {
+        
+                position: fixed;
+                
+            }
+            
+            }
+
+
+       
+      
+      @media(max-width:600px),(min-width:500px){
+                .menu {
+                    position: fixed;
+                }
+                }
+    
+   @media(max-width:500px),(min-width:428px){
+                    .menu {
+                        position: fixed;
+                    }
+                    }
+        
