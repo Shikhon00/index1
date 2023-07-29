@@ -145,24 +145,38 @@ body, ul {
 
 .container {
     display: flex;
-    justify-content: space-between;
+  
     align-items: center;
-    max-width: 120.0rem;
-    margin-top: .1rem;
+    max-width: 127.0rem;
+    margin-top: 0rem;
     padding: 0rem 5.0rem;
     padding-top: 0rem;
-}
+    height: 7.0rem;
 
-.logo {
-    color: rgba(233, 75, 75, 0.938); /* Set the color of the logo */
-    font-size: 3.0rem;
+}
+.container h2{
+   
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 2.1rem;
     font-weight: bold;
-    margin-top: .2rem;
+    color: orange;
+}
+.logo{
+   
+    float: left;
+}
+.container img{
+    
+    width: 5rem;
+    
+    
 }
 
 .menu {
     list-style: none;
     display: flex;
+    margin-left: 70.0rem;
 }
 
 .menu li {
@@ -190,10 +204,17 @@ body, ul {
 }
 
 /* Add additional styles as needed */
+@media(max-width:1182px){
+    html{
+        font-size: 56.48%;
+    }
+    .menu {
 
-
-
-
+        position: fixed;
+        
+    }
+    
+    }
 
 
 @media(max-width:1050px){
@@ -205,6 +226,17 @@ body, ul {
     }
 
 }
+@media(max-width:950px){
+    html{
+        font-size: 45.68%;
+    }
+    .menu {
+
+        position: fixed;
+        
+    }
+    
+    }
 @media(max-width:870px){
     html{
         font-size: 41.8%;
@@ -232,6 +264,17 @@ body, ul {
             background-size: 6%;
         }
         }
+        @media(max-width:600px){
+            html{
+                font-size: 28.48%;
+            }
+            .menu {
+        
+                position: fixed;
+                
+            }
+            
+            }
         @media(max-width:535px){
             html{
                 font-size: 25.7%;
@@ -252,6 +295,17 @@ body, ul {
                 font-size: 2rem;
             }
             }
+            @media(max-width:490px){
+                html{
+                    font-size: 23.48%;
+                }
+                .menu {
+            
+                    position: fixed;
+                    
+                }
+                
+                }
 
     @media(max-width:427px){
         html{
@@ -264,6 +318,30 @@ body, ul {
             font-size: 1.7rem;
         }
         }
+        @media(max-width:393px){
+            html{
+                font-size: 18.48%;
+            }
+            .menu {
+        
+                position: fixed;
+                
+            }
+            
+            }
 
-  
 
+       
+      
+      @media(max-width:600px),(min-width:500px){
+                .menu {
+                    position: fixed;
+                }
+                }
+    
+   @media(max-width:500px),(min-width:428px){
+                    .menu {
+                        position: fixed;
+                    }
+                    }
+        
